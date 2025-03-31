@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def load_images(folder):
-    image_files = ['product.png', 'base.png', 'tryon3.png', 'tryon_n.png']
+    image_files = ['tryon3.png', 'tryon_n.png', 'tryon_m.png']
     images = []
     for img in image_files:
         img_path = os.path.join(folder, img)
