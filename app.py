@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def load_images(folder):
-    image_files = ['product.png', 'tryon3.png', 'tryon_n.png', 'tryon_m.png']
+    image_files = ['product.png', 'idea.png', 'base.png', 'tryon.png']
     images = []
     for img in image_files:
         img_path = os.path.join(folder, img)
@@ -17,7 +17,7 @@ def load_images(folder):
 
 
 # Root directory where images are stored
-root_folder = "Testing_set_tops_alle"
+root_folder = "Top_final_set"
 
 st.title("Tops Tryon View <> Pinterest Flow")
 
