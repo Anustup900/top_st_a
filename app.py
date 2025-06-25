@@ -17,7 +17,7 @@ def load_images(folder):
 
 
 # Root directory where images are stored
-root_folder = "Top_final_set"
+root_folder = "Testing_set_tops_alle"
 
 st.title("Tops Tryon View <> Pinterest Flow")
 
